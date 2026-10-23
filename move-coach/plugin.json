@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "move-coach",
+  "version": "0.2.0",
+  "description": "Your team's MOVE catching-sensor numbers in ChatGPT: weekly team report, practice plan, parent update and recruiting one-pager. Read-only.",
+  "author": { "name": "MOVE", "url": "https://movecatching.com" },
+  "homepage": "https://movecatching.com",
+  "repository": "https://github.com/MOVEcatching/claude-plugins",
+  "keywords": ["baseball", "catcher", "coaching", "sensor", "move"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MOVE Coach",
+        "shortDescription": "Your catchers' MOVE numbers",
+        "longDescription": "Reads your team's MOVE catching-sensor data, the same numbers as the MOVE Coach dashboard, and writes four things coaches need: a weekly team report, a practice plan using your own drills, a short parent update, and a recruiting one-pager. It only reads: nothing it does changes MOVE or sends anything to anyone. Your team must be on the MOVE Coach plan. Catchers under 13 are never shared.",
+        "developerName": "MOVE",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png",
+        "brandColor": "#000000",
+        "websiteURL": "https://movecatching.com",
+        "defaultPrompt": [
+          "Weekly MOVE report for my catchers",
+          "Practice plan from this week's MOVE data",
+          "Write a parent update for one of my catchers"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "movecatching",
+  "description": "MOVE catching sensor plugins for coaches",
+  "owner": {
+    "name": "MOVE",
+    "url": "https://movecatching.com"
+  },
+  "plugins": [
+    {
+      "name": "move-coach",
+      "source": "./move-coach",
+      "description": "Your team's MOVE numbers in Claude: weekly team report, practice plan, parent update, recruiting one-pager"
+    }
+  ]
+}

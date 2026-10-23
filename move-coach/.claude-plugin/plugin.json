@@ -1,0 +1,20 @@
+{
+  "name": "move-coach",
+  "displayName": "MOVE Coach",
+  "version": "0.2.0",
+  "description": "Your team's MOVE catching-sensor numbers in Claude or ChatGPT: weekly team report, practice plan, parent update and recruiting one-pager. Read-only.",
+  "author": {
+    "name": "MOVE",
+    "url": "https://movecatching.com"
+  },
+  "homepage": "https://movecatching.com",
+  "keywords": [
+    "baseball",
+    "catcher",
+    "coaching",
+    "sensor",
+    "move"
+  ],
+  "icon": "./assets/icon.png",
+  "repository": "https://github.com/MOVEcatching/claude-plugins"
+}
