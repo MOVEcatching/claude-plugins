@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "move-coach",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Your team's MOVE catching-sensor numbers in ChatGPT: weekly team report, practice plan, parent update and recruiting one-pager. Read-only.",
   "author": { "name": "MOVE", "url": "https://movecatching.com" },
   "homepage": "https://movecatching.com",

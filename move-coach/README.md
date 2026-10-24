@@ -19,7 +19,7 @@ For a local copy of this folder: `/plugin marketplace add /path/to/ClaudePlugin`
   (`codex plugin marketplace add MOVEcatching/claude-plugins`), then install **MOVE Coach** from
   the plugins list in the ChatGPT desktop app and sign in when asked.
 - **ChatGPT on the web, data only:** the plus button › **Add custom MCP server**, paste
-  `https://move-catching-sensor.web.app/mcp`, choose OAuth, then **Create as a plugin**. You get
+  `https://movecatching.com/mcp`, choose OAuth, then **Create as a plugin**. You get
   your team's numbers but not the four ready-made skills.
 
 Not yet in OpenAI's public plugin directory.

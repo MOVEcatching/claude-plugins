@@ -2,7 +2,7 @@
   "mcpServers": {
     "move": {
       "type": "http",
-      "url": "https://move-catching-sensor.web.app/mcp"
+      "url": "https://movecatching.com/mcp"
     }
   }
 }

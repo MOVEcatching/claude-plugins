@@ -3,7 +3,7 @@
   "mcpServers": {
     "move": {
       "type": "streamable-http",
-      "url": "https://move-catching-sensor.web.app/mcp",
+      "url": "https://movecatching.com/mcp",
       "extensions": {
         "com.openai": {
           "auth": { "type": "oauth", "client": { "mode": "dcr" } }

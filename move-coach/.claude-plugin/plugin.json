@@ -1,7 +1,7 @@
 {
   "name": "move-coach",
   "displayName": "MOVE Coach",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Your team's MOVE catching-sensor numbers in Claude or ChatGPT: weekly team report, practice plan, parent update and recruiting one-pager. Read-only.",
   "author": {
     "name": "MOVE",
